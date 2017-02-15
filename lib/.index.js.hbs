@@ -10,7 +10,7 @@ const SgGuard = require('./sg_guard')
 
 let lib = create.bind(this)
 
-Object.assign(lib, , {
+Object.assign(lib, SgGuard, {
   create,
   SgGuard
 })
