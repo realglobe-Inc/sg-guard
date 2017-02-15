@@ -1,0 +1,44 @@
+{
+  "name": "sg-guard",
+  "version": "1.0.0",
+  "description": "Simple quick auth",
+  "main": "lib",
+  "scripts": {
+    "test": "node ./ci/test.js",
+    "prepare": "node ./ci/build.js"
+  },
+  "repository": "realglobe-Inc/sg-guard",
+  "keywords": [
+    "SUGOS"
+  ],
+  "author": {
+    "name": "Taka Okunishi",
+    "email": "okunishinish@gmail.com",
+    "url": "http://okunishitaka.com"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/realglobe-Inc/sg-guard/issues"
+  },
+  "homepage": "https://github.com/realglobe-Inc/sg-guard#readme",
+  "dependencies": {
+    "askconfig": "^3.0.5",
+    "bwindow": "^1.0.7",
+    "co": "^4.6.0"
+  },
+  "devDependencies": {
+    "amocha": "^2.0.0",
+    "ape-formatting": "^1.0.2",
+    "ape-releasing": "^4.0.4",
+    "ape-tasking": "^4.0.9",
+    "ape-tmpl": "^5.0.20",
+    "ape-updating": "^4.1.0",
+    "coz": "^6.0.20",
+    "injectmock": "^2.0.0",
+    "sugos-travis": "^2.0.7"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=4"
+  }
+}
